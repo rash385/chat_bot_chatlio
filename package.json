@@ -10,7 +10,7 @@
   "description": "",
   "dependencies": {
     "@slack/client": "^3.15.0"
-  }
+  },
   "engines": {
     "node": "8.9.4",
     "npm": "5.6.0"

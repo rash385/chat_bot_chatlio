@@ -1,7 +1,7 @@
 {
   "name": "chatbot",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "SLACK_BOT_TOKEN=xoxb-300138114656-P8IK8OPgkh6Gee813BTkZHGB node server.js",
   "scripts": {
     "test": "SLACK_BOT_TOKEN=xoxb-300138114656-P8IK8OPgkh6Gee813BTkZHGB node server.js"
   },

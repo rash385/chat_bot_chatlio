@@ -1,4 +1,4 @@
-var botToken = process.env.SLACK_BOT_TOKEN;
+var botToken = 'xoxb-297417220770-ed1K6TQE72KcxVfs9oYKHu8p';
 
 console.log(botToken)
 

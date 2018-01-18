@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "SLACK_BOT_TOKEN=xoxb-300138114656-P8IK8OPgkh6Gee813BTkZHGB node server.js"
   },
   "author": "",
   "license": "ISC",

@@ -1,4 +1,4 @@
-var botToken = 'xoxb-300138114656-f19LvjmR6ZGN8NKUSVtISx8o';
+var botToken = 'xoxb-300138114656-kXuwiTdtuh6GImIRX904ZWW1';
 
 
 console.log(botToken)

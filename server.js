@@ -32,7 +32,7 @@ var thirdDict = ['schedule', 'call'];
 
 var fourthDict = ['yes']; 
 
-var fifthDict = ['ty','thank you', 'bye'];
+var fifthDict = ['thank you', 'bye'];
 
 
 

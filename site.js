@@ -21,7 +21,7 @@ app.get('/', function(req, res) {
 app.get('/test', function(req, res) {
 
     // ejs render automatically looks in the views folder
-    res.send(req.params.toString());
+    res.send(req.params.hub_challenge);
 });
 
 app.listen(port, function() {

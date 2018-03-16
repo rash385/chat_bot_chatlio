@@ -18,10 +18,10 @@ app.get('/', function(req, res) {
     res.render('chat');
 });
 
-app.get('/test', function(req, res) {
+app.get('/test/:id', function(req, res) {
 
     // ejs render automatically looks in the views folder
-    res.send('hub_challenge');
+    res.send(request.params.id);
 });
 
 app.listen(port, function() {

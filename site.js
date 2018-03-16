@@ -21,7 +21,7 @@ app.get('/', function(req, res) {
 app.get('/test', function(req, res) {
 
     // ejs render automatically looks in the views folder
-    return "tested result";
+    res("test-bot");
 });
 
 app.listen(port, function() {

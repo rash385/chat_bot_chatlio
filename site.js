@@ -15,8 +15,13 @@ app.use(express.static(__dirname + '/views'));
 app.get('/', function(req, res) {
 
     // ejs render automatically looks in the views folder
-    //res.render('chat');
-    res="chat-bot"
+    res.render('chat');
+});
+
+app.get('/test', function(req, res) {
+
+    // ejs render automatically looks in the views folder
+    return "tested result";
 });
 
 app.listen(port, function() {
